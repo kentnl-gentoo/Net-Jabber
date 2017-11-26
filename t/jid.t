@@ -3,7 +3,7 @@ use Test::More tests=>15;
 
 BEGIN{ use_ok( "Net::Jabber" ); }
 
-require "t/mytestlib.pl";
+require "./t/mytestlib.pl";
 
 my $jid = new Net::Jabber::JID('host.com/xxx@yyy.com/zzz');
 ok( defined($jid), "new()" );

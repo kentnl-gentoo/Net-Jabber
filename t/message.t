@@ -3,7 +3,7 @@ use Test::More tests=>126;
 
 BEGIN{ use_ok( "Net::Jabber" ); }
 
-require "t/mytestlib.pl";
+require "./t/mytestlib.pl";
 
 my $debug = new Net::XMPP::Debug(setdefault=>1,
                                  level=>-1,

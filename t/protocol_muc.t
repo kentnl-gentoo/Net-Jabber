@@ -3,7 +3,7 @@ use Test::More tests=>4;
 
 BEGIN{ use_ok( "Net::Jabber" ); }
 
-require "t/mytestlib.pl";
+require "./t/mytestlib.pl";
 
 my $client = new Net::Jabber::Client();
 ok( defined($client), "new()" );

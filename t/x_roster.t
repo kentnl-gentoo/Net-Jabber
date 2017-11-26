@@ -9,7 +9,7 @@ my $debug = new Net::XMPP::Debug(setdefault=>1,
                                  header=>"test",
                                 );
 
-require "t/mytestlib.pl";
+require "./t/mytestlib.pl";
 
 my $x = new Net::Jabber::Stanza("x");
 ok( defined($x), "new()" );

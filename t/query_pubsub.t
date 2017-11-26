@@ -3,7 +3,7 @@ use Test::More tests=>455;
 
 BEGIN{ use_ok( "Net::Jabber" ); }
 
-require "t/mytestlib.pl";
+require "./t/mytestlib.pl";
 
 my $line = "-"x40;
 

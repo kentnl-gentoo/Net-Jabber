@@ -3,7 +3,7 @@ use Test::More tests=>28;
 
 BEGIN{ use_ok( "Net::Jabber" ); }
 
-require "t/mytestlib.pl";
+require "./t/mytestlib.pl";
 
 my $message_node = new XML::Stream::Node("message");
 ok( defined($message_node), "new()" );

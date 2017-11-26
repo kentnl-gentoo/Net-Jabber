@@ -3,7 +3,7 @@ use Test::More tests=>91;
 
 BEGIN{ use_ok( "Net::Jabber" ); }
 
-require "t/mytestlib.pl";
+require "./t/mytestlib.pl";
 
 my $query = new Net::Jabber::Stanza("query");
 ok( defined($query), "new()" );
